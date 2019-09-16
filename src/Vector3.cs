@@ -47,5 +47,18 @@ namespace VectorMath
             this.Y = y;
             this.Z = z;
         }
+
+        /// <summary>
+        /// Adds the other vector to this vector.
+        /// </summary>
+        /// <param name="other"></param> Vector to be added to the original vector.
+        public void Add(Vector3 other)
+        {
+            this.X += other.X;
+            this.Y += other.Y;
+            this.Z += other.Z;
+
+
+        }
     }
 }
